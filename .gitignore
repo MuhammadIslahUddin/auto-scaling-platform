@@ -1,0 +1,10 @@
+# Terraform — NEVER commit these!
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Node / App
+node_modules/
+.DS_Store
